@@ -8,7 +8,7 @@ import DOMPurify from "dompurify";
 const JobDesc = () => {
   const data = DOMPurify.sanitize(desc);
   return (
-    <div className="w-2/2 mt-5 px-8 ">
+    <div className="w-2/2  mt-5 px-8 ">
       <div className="flex justify-between ">
         <div className="flex gap-2 items-center">
           <div className="p-2 bg-mine-shaft-800 rounded-xl">
@@ -23,7 +23,7 @@ const JobDesc = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2 items-center">
-          <Link to="/Apply-Job">
+          <Link to="Apply-Job">
             <Button size="sm" variant="light" color="brightSun.4">
               Apply Now
             </Button>
@@ -92,7 +92,7 @@ const JobDesc = () => {
             </div>
           </div>
           <div className="flex flex-col gap-2 items-center">
-            <Link to="/company">
+            <Link to="Apply-Job">
               <Button size="sm" variant="light" color="brightSun.4">
                 Company Page 
               </Button>

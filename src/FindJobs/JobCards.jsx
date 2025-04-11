@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const JobCards = ({ jobTitle, company, applicants, experience, jobType, location, salary, postedDaysAgo, description }) => {
   return (
-    <Link  to="/job" className="border  border-slate-700 mt-1 p-4 w-80 flex flex-col gap-2 rounded-xl  m-4     bg-mine-shaft-900">
+    <Link  to="/job" className="border  border-slate-700 mt-4 p-4 w-80 flex flex-col gap-2 rounded-xl  m-4     bg-mine-shaft-900">
       <div className="flex justify-between">
         <div className="flex gap-2 items-center">
           <div className="p-2 bg-mine-shaft-800 rounded-md">
